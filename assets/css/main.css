@@ -608,7 +608,7 @@ section,
 
 .hero .container {
   position: absolute; /* Thay đổi từ relative thành absolute để điều chỉnh vị trí chính xác */
-  left: 30%; /* Di chuyển container sang bên phải */
+  left: 25%; /* Di chuyển container sang bên phải */
   top: 10%; /* Di chuyển container lên trên từ cạnh trên của section hero */
   transform: translateY(-10%); /* Dịch lên thêm một chút, điều chỉnh giá trị nếu cần */
   z-index: 3; /* Đảm bảo container nằm trên hình ảnh nền */
