@@ -607,8 +607,12 @@ section,
 }
 
 .hero .container {
-  position: relative;
-  z-index: 3;
+  position: absolute; /* Thay đổi từ relative thành absolute để điều chỉnh vị trí chính xác */
+  left: 30%; /* Di chuyển container sang bên phải */
+  top: 10%; /* Di chuyển container lên trên từ cạnh trên của section hero */
+  transform: translateY(-10%); /* Dịch lên thêm một chút, điều chỉnh giá trị nếu cần */
+  z-index: 3; /* Đảm bảo container nằm trên hình ảnh nền */
+  text-align: center; /* Căn giữa nội dung bên trong container */
 }
 
 .hero h2 {
@@ -626,6 +630,7 @@ section,
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
 }
+
 
 .hero .social-links {
   margin-top: 25px;
