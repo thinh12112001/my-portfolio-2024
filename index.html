@@ -305,24 +305,39 @@
            </div><!-- Edn Resume Item -->
 
 
-
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>Software Development</h4>
-              <h5>08/2023 - Present</h5>
+              <h5>11/2023 - Present</h5>
               <p><em>District 1, Ho Chi Minh city</em></p>
               <ul>
-                <li>Converted Oracle XML to SQL Server syntax and tested in web deployment</li>
-                <li>Developed procedures and endpoints, validated data using Spring</li>
-                <li>Built new screens and optimized legacy code in Sencha.</li>
-                <li>Fixed QA-reported issues</li>               
+                <li>Migrated Oracle XML to SQL Server</li>
+                <li>Developed a web service using Spring Framework and procedures to validate and synchronize data across multiple databases.</li>
+                <li>Migrated screens and optimized coding structure from leagacy project.</li>
+                <li>Addressed QA-reported issues</li>               
                 
               </ul>
             </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Internal Projects</h3>
+            <div class="resume-item">
+              <p><em>MOST_IF Web Service</em></p>
+              <ul>
+                <li>Created a message logging system in the middle database for both incoming and outgoing messages, ensuring all message data is stored for future reference and debugging.</li>
+                <li>Implemented logging for both successful and failed message processing, storing error details in a dedicated error log table to track failure reasons.</li>
+                <li>Developed a JSON message validation process using Spring Framework to ensure that mandatory fields and data formats are correctly validated before inserting into the middle database.</li>
+                <li>Developed a process for categorizing incoming messages based on their operation type and other attributes to route the message to the appropriate processing pipeline.</li>
+                <li>Set up integration with the main database, ensuring that validated data from the middle database is successfully sent to the main database for further processing.</li>
+                <li>Implemented a Spring scheduled task using cron job to automatically resend failed messages with a retry mechanism.</li>
+
+              </ul>
+           </div><!-- Edn Resume Item -->
           </div>
+
+          
 
         </div>
 
